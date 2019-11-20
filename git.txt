@@ -1,68 +1,79 @@
 
 
 
-²»³É¹¦£¬·¢ÏÖÖ»ÊÇÉ¾³ıµÄ±¾µØ¶Ô¸ÃÔ¶³Ì·ÖÖ§µÄtrack£¬ÕıÈ·µÄ·½·¨Ó¦¸ÃÊÇÕâÑù£º
+ä¸æˆåŠŸï¼Œå‘ç°åªæ˜¯åˆ é™¤çš„æœ¬åœ°å¯¹è¯¥è¿œç¨‹åˆ†æ”¯çš„trackï¼Œæ­£ç¡®çš„æ–¹æ³•åº”è¯¥æ˜¯è¿™æ ·ï¼š
 git branch -r -d origin/branch-name
-Ã°ºÅÇ°ÃæµÄ¿Õ¸ñ²»ÄÜÉÙ£¬Ô­ÀíÊÇ°ÑÒ»¸ö¿Õ·ÖÖ§pushµ½serverÉÏ£¬Ïàµ±ÓÚÉ¾³ı¸Ã·ÖÖ§¡£
+å†’å·å‰é¢çš„ç©ºæ ¼ä¸èƒ½å°‘ï¼ŒåŸç†æ˜¯æŠŠä¸€ä¸ªç©ºåˆ†æ”¯pushåˆ°serverä¸Šï¼Œç›¸å½“äºåˆ é™¤è¯¥åˆ†æ”¯ã€‚
 git push origin :branch-name
 
 
-git status   ²é¿´µ±Ç°¹¤×÷¿Õ¼äµÄgit±ä¶¯
-git add .     ½«ËùÓĞµÄ±ä»¯Ìí¼Óµ½±ä»¯ÁĞ±í
-git commit -m "Ìá½»Ô­Òò"   ½«ËùÓĞµÄ±ä»¯Ìá½»µ½±¾µØ²Ö¿â
-git push      ½«±¾µØ²Ö¿âÌá½»µ½Ô¶³Ì²Ö¿â
-git branch   ²é¿´µ±Ç°±¾»úËùÓĞ·ÖÖ§
-git branch -a ²é¿´Ô¶³ÌËùÓĞ·ÖÖ§
-git branch branch_name  ĞÂ½¨Ò»¸öÃûÎªbranch_nameµÄ·ÖÖ§ÔÚ±¾µØ
-git branch -D  branch_name    Ç¿ÖÆÉ¾³ıbranch_name·ÖÖ§
-git  pull ´ÓÔ¶³Ì²Ö¿âÀ­È¡±ä¶¯
-git checkout branch_name   ÇĞ»»µ½ÃûÎªbranch_nameµÄ·ÖÖ§
-ºÏ²¢£º½«B·ÖÖ§ºÏ²¢µ½A·ÖÖ§
+git status   æŸ¥çœ‹å½“å‰å·¥ä½œç©ºé—´çš„gitå˜åŠ¨
+git add .     å°†æ‰€æœ‰çš„å˜åŒ–æ·»åŠ åˆ°å˜åŒ–åˆ—è¡¨
+git commit -m "æäº¤åŸå› "   å°†æ‰€æœ‰çš„å˜åŒ–æäº¤åˆ°æœ¬åœ°ä»“åº“
+git push      å°†æœ¬åœ°ä»“åº“æäº¤åˆ°è¿œç¨‹ä»“åº“
+git branch   æŸ¥çœ‹å½“å‰æœ¬æœºæ‰€æœ‰åˆ†æ”¯
+git branch -a æŸ¥çœ‹è¿œç¨‹æ‰€æœ‰åˆ†æ”¯
+git branch branch_name  æ–°å»ºä¸€ä¸ªåä¸ºbranch_nameçš„åˆ†æ”¯åœ¨æœ¬åœ°
+git branch -D  branch_name    å¼ºåˆ¶åˆ é™¤branch_nameåˆ†æ”¯
+git  pull ä»è¿œç¨‹ä»“åº“æ‹‰å–å˜åŠ¨
+git checkout branch_name   åˆ‡æ¢åˆ°åä¸ºbranch_nameçš„åˆ†æ”¯
+åˆå¹¶ï¼šå°†Båˆ†æ”¯åˆå¹¶åˆ°Aåˆ†æ”¯
 
-git checkout A    ÇĞµ½A·ÖÖ§
-git pull                Í¬²½Ô¶³ÌµÄ±ä¶¯
-git checkout B    ÇĞµ½B·ÖÖ§
-git pull                 Í¬²½Ô¶³Ì±ä¶¯
-git checkout A     ÇĞµ½A·ÖÖ§
-git merge B          ½«BºÏ²¢µ½A
-git push	Ìá½»µ½Ô¶³Ì²Ö¿â
+git checkout A    åˆ‡åˆ°Aåˆ†æ”¯
+git pull                åŒæ­¥è¿œç¨‹çš„å˜åŠ¨
+git checkout B    åˆ‡åˆ°Båˆ†æ”¯
+git pull                 åŒæ­¥è¿œç¨‹å˜åŠ¨
+git checkout A     åˆ‡åˆ°Aåˆ†æ”¯
+git merge B          å°†Båˆå¹¶åˆ°A
+git push	æäº¤åˆ°è¿œç¨‹ä»“åº“
 
-·ÖÖ§Ìá½»Ô¶³Ì²Ö¿â
+åˆ†æ”¯æäº¤è¿œç¨‹ä»“åº“
 git push --set-upstream origin branch-1.0
 
 
-git£¨demo£©
+gitï¼ˆdemoï¼‰
 
-git push origin branch_name °Ñ±¾µØ·ÖÖ§Ìá½»µ½Ô¶³Ì²Ö¿â
+git push origin branch_name æŠŠæœ¬åœ°åˆ†æ”¯æäº¤åˆ°è¿œç¨‹ä»“åº“
 
-git´óĞ¡Ğ´²»Ãô¸Ğ£¬ĞŞ¸ÄÔ¶³Ì²Ö¿âÎÄ¼şÃûµÄ´óĞ¡Ğ´
-git rm xx/xx/xx.js		ÏÈÉ¾³ıÎÄ¼ş
+gitå¤§å°å†™ä¸æ•æ„Ÿï¼Œä¿®æ”¹è¿œç¨‹ä»“åº“æ–‡ä»¶åçš„å¤§å°å†™
+git rm xx/xx/xx.js		å…ˆåˆ é™¤æ–‡ä»¶
 git status	
 git add 
 git commit 
 git push 
-ÔÙÌí¼ÓÎÄ¼ş
+å†æ·»åŠ æ–‡ä»¶
 git status	
 git add 
 git commit 
 git push 
 
-µ±merge»òÕßpullµÄÊ±ºò£¬³öÏÖPlease enter a commit message to explain why this merge is necessary.
-½â¾ö£º°´Esc¼ü£¬È»ºóÊäÈë¡°:wq¡±¼´¿É
+å½“mergeæˆ–è€…pullçš„æ—¶å€™ï¼Œå‡ºç°Please enter a commit message to explain why this merge is necessary.
+è§£å†³ï¼šæŒ‰Escé”®ï¼Œç„¶åè¾“å…¥â€œ:wqâ€å³å¯
 
-git checkout branch ÇĞ»»·ÖÖ§Ê±±¨Ò»ÏÂ´íÎó
+git checkout branch åˆ‡æ¢åˆ†æ”¯æ—¶æŠ¥ä¸€ä¸‹é”™è¯¯
 error: pathspec 'v1.0.1' did not match any file(s) known to git.
-½â¾ö£ºÔÚµ±Ç°·ÖÖ§Ö´ĞĞgit pull£¬ÔÚÇĞ»»·ÖÖ§£¬Ô­Òò£ºÔ¶³Ì·ÖÖ§Ã»ÓĞ¸üĞÂ
+è§£å†³ï¼šåœ¨å½“å‰åˆ†æ”¯æ‰§è¡Œgit pullï¼Œåœ¨åˆ‡æ¢åˆ†æ”¯ï¼ŒåŸå› ï¼šè¿œç¨‹åˆ†æ”¯æ²¡æœ‰æ›´æ–°
 
-É¾³ıÔ¶³Ì·ÖÖ§ 
+åˆ é™¤è¿œç¨‹åˆ†æ”¯ 
 git push origin --delete branch_name
 
-É¾³ı±¾µØ·ÖÖ§
+åˆ é™¤æœ¬åœ°åˆ†æ”¯
 git branch -d [branch-name]
 
-Ö÷Õ¾£º878744510@qq.com
-ÃÜÂë£ºabc123456
+ä¸»ç«™ï¼š878744510@qq.com
+å¯†ç ï¼šabc123456
 
+ä¿®æ”¹gitè¿œç¨‹ä»“åº“åœ°å€
+git remote set-url origin http://192.168.100.235:9797/john/git_test.git
+https://blog.csdn.net/asdfsfsdgdfgh/article/details/54981823
+
+gitæ¯æ¬¡pushéœ€è¦è¾“å…¥å¯†ç 
+git config --global credential.helper store
+
+git config  credential.helper store                                             
+è¿™é‡Œæ²¡æœ‰--globalæ„æ€æ˜¯æŒ‡åªå¯¹è¿™ä¸ªä»“åº“ç”Ÿæ•ˆï¼Œå»ºè®®ä»¥åéƒ½ä¸è¦åŠ --global
+è®©ä»£ç é…ç½®ä»¥ä»“åº“ä¸ºå•ä½å­˜å‚¨å°±å¥½ï¼Œè®¾ç½®æˆå…¨å±€ä¸çµæ´»
+https://jingyan.baidu.com/article/4b07be3cf27d8148b280f36a.html
 
 
 
